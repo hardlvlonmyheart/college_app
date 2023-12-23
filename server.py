@@ -5,7 +5,7 @@ from src.server.advanced_import import *
 from src.server.router import routers
 
 
-app = fastapi.FastAPI(title='College API', version='Bita 1.0', description='The best college in the world')
+app = fastapi.FastAPI(title='College API', version='Bita 1.0', description='The best college')
 
 [app.include_router(router) for router in routers]
 
